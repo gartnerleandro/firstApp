@@ -27,7 +27,7 @@ class DatabaseService {
     }
     
     var mainStorageRef : StorageReference {
-        return Storage.storage().reference(forURL: "https://firstapp-49ea8.firebaseio.com/")
+        return Storage.storage().reference(forURL: "FIREBASE_DB_URL")
     }
     
     func saveText(text : String) {
